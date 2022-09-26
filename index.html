@@ -10,79 +10,94 @@
 </head>
 <body>
   <div class="container">
+    <!-- Header -->
     <div class="header">
-      <form action="" method="GET">
+      <form action="/" method="GET" class="form">
+        <p>icon</p>
         <input type="text">
       </form>
       <div class="username">
-        <h2>Morgan Oakley</h2>
-      </div>
-      <div class="greeting">
-        <p>Hi there,</p>
-        <h2>Morgan Oakley</h2>
-      </div>
-      <div class="buttons">
         <ul>
-          <li>New</li>
-          <li>Upload</li>
-          <li>Share</li>
+          <li><img src="" alt="">icon</li>
+          <li><img src="" alt="">icon</li>
+          <li><h2>Morgan Oakley</h2></li>
         </ul>
       </div>
+      <div class="greeting">
+        <div class="greeting-icon">
+          <p>icon</p>
+        </div>
+        <div class="greeting-title">
+          <p>Hi there,</p>
+          <h2>Morgan Oakley</h2>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="btn">New</button>
+        <button class="btn">Upload</button>
+        <button class="btn">Share</button>
+      </div>
     </div>
+    <!-- Sidebar -->
     <div class="sidebar">
       <div class="sidebar__header">
         <img class="icon" src="" alt="">
         <h1 class="logo">Dashboard</h1>
       </div>
-      <div class="menu">
-        <ul class="menu-top">
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-        </ul>
-        <ul class="menu-bottom">
-          <li>Settings</li>
-          <li>Support</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
+      <ul class="sidebar__menu-top">
+        <li>Home</li>
+        <li>Profile</li>
+        <li>Messages</li>
+        <li>History</li>
+        <li>Tasks</li>
+        <li>Communities</li>
+      </ul>
+      <ul class="sidebar__menu-bottom">
+        <li>Settings</li>
+        <li>Support</li>
+        <li>Privacy</li>
+      </ul>
     </div>
+    <!-- Main Card and Update Container -->
     <div class="main-content">
+
       <div class="projects">
-        <h2>Projects</h2>
-        <div class="card">
-          <p class="card-header">Case Crime Trace</p>
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dignissimos quos recusandae perspiciatis voluptate. Voluptate.</p>
+        <div class="projects__title">
+          <h2>Projects</h2>
         </div>
-        <div class="card">
-          <p class="card-header">Commerce</p>
-          <p class="description">Maiores soluta officia, tempore assumenda sapiente aperiam eos culpa enim odit quibusdam numquam reprehenderit nam.</p>
-        </div>
-        <div class="card">
-          <p class="card-header">Mibrary</p>
-          <p class="description">Perspiciatis, dicta dolorem vero accusantium iure, quam ex ullam harum vitae quis quas iste temporibus.</p>
-        </div>
-        <div class="card">
-          <p class="card-header">Map Attack</p>
-          <p class="description">Neque non labore sit? Error magni est doloribus eius molestiae fuga soluta quae tenetur ab!</p>
-        </div>
-        <div class="card">
-          <p class="card-header">Recip-Ease</p>
-          <p class="description">Quae nobis nostrum animi recusandae iusto vel at minima, accusamus deleniti delectus praesentium assumenda. Eveniet.</p>
-        </div>
-        <div class="card">
-          <p class="card-header">Sudzzz</p>
-          <p class="description">Explicabo rerum iure nesciunt cupiditate incidunt doloribus laboriosam quos veritatis reiciendis necessitatibus, fugit nihil aut!</p>
+        <div class="projects__cards">
+          <div class="card">
+            <p class="card-header">Case Crime Trace</p>
+            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dignissimos quos recusandae perspiciatis voluptate. Voluptate.</p>
+          </div>
+          <div class="card">
+            <p class="card-header">Commerce</p>
+            <p class="description">Maiores soluta officia, tempore assumenda sapiente aperiam eos culpa enim odit quibusdam numquam reprehenderit nam.</p>
+          </div>
+          <div class="card">
+            <p class="card-header">Mibrary</p>
+            <p class="description">Perspiciatis, dicta dolorem vero accusantium iure, quam ex ullam harum vitae quis quas iste temporibus.</p>
+          </div>
+          <div class="card">
+            <p class="card-header">Map Attack</p>
+            <p class="description">Neque non labore sit? Error magni est doloribus eius molestiae fuga soluta quae tenetur ab!</p>
+          </div>
+          <div class="card">
+            <p class="card-header">Recip-Ease</p>
+            <p class="description">Quae nobis nostrum animi recusandae iusto vel at minima, accusamus deleniti delectus praesentium assumenda. Eveniet.</p>
+          </div>
+          <div class="card">
+            <p class="card-header">Sudzzz</p>
+            <p class="description">Explicabo rerum iure nesciunt cupiditate incidunt doloribus laboriosam quos veritatis reiciendis necessitatibus, fugit nihil aut!</p>
+          </div>
         </div>
       </div>
-      <div class="announcements">
+
+      <div class="updates">
         <div class="announcements">
           <h2>Announcements</h2>
           <!-- Card here -->
-          <div class="announcment__card">
+          <div class="announcements__card">
             <h3>Site Maintenance</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, necessitatibus.</p>
             <hr>
@@ -112,6 +127,7 @@
           </div>
         </div>
       </div>
+      
     </div>
   </div>
 </body>
