@@ -1,5 +1,7 @@
 # Dashboard Project
 
+![Dashboard img](https://res.cloudinary.com/angelrodriguez/image/upload/v1666207746/Odin%20Dashboard/Screen_Shot_2022-10-19_at_3.28.19_PM.png, 'Dashboard project')
+
 ## Assignment
 
 ## Step 1: Set Up and Planning
